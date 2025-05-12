@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --primary-color: #ff7830;
+  --secondary-color: #ffaa70;
+  --accent-color: #ff5e1a;
+  --dark-accent: #cc4400;
+  --text-color: #333333;
+  --light-text: #666666;
+  --background: #ffffff;
+  --light-background: #fff8f5;
+  --border-color: #ffe0d0;
+  --shadow: 0 8px 25px rgba(255, 120, 48, 0.08);
+  --radius: 10px;
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--light-background);
+}
